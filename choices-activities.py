@@ -1,8 +1,4 @@
 
-from re import I, M
-from tkinter import N
-
-
 def extract_activities_from_files(file):
     planning = {}
     with open(file, "r", encoding="utf-8") as f:
